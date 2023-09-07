@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F_TMS_S_O__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>F/TMS S/O</label>
+    <referenceTo>clofor_com_cfs__CustomObject1__c</referenceTo>
+    <relationshipLabel>Shipment Team Members</relationshipLabel>
+    <relationshipName>Shipment_Team_Members</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

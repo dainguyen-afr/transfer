@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consolidation_Vessel_Schedule</fullName>
+    <columns>NAME</columns>
+    <columns>Deactivate__c</columns>
+    <columns>MasterConsol__c</columns>
+    <columns>ETD__c</columns>
+    <columns>ETA__c</columns>
+    <columns>Country_of_POL__c</columns>
+    <columns>POL__c</columns>
+    <columns>Country_of_POD__c</columns>
+    <columns>POD__c</columns>
+    <columns>Type__c</columns>
+    <columns>Note__c</columns>
+    <columns>Ocean_Freight_FCY__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Vesselschedule__c.Consolidation</value>
+    </filters>
+    <label>Consolidation Vessel Schedule</label>
+</ListView>

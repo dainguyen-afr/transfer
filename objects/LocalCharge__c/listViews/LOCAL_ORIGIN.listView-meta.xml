@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LOCAL_ORIGIN</fullName>
+    <columns>NAME</columns>
+    <columns>Accountname__c</columns>
+    <columns>POD__c</columns>
+    <columns>POL__c</columns>
+    <columns>Total_Amount_of_Price_FCY_in_Des__c</columns>
+    <columns>Total_Amount_of_Price_FCY_in_Origin__c</columns>
+    <columns>Total_Amount_for_Guest_FCY_Des__c</columns>
+    <columns>Total_Amount_for_Guest_FCY_Origin__c</columns>
+    <columns>Active__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Accountname__c</field>
+        <operation>equals</operation>
+        <value>DB</value>
+    </filters>
+    <label>LOCAL ORIGIN</label>
+</ListView>

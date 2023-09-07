@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KPIdaterule</fullName>
+    <active>true</active>
+    <errorConditionFormula>MONTH( KPI_End_Date__c ) - MONTH( KPI_Start_Date__c ) = 12</errorConditionFormula>
+    <errorMessage>This is KPI for a year. Please change your KPI Start Date &amp; KPI End Date</errorMessage>
+</ValidationRule>

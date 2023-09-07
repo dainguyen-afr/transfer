@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Amount_for_Guest_Local_Des__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Amount for Guest (Local) Des</label>
+    <summarizedField>LCCLine__c.Total_Selling_Amount_for_Guest_Local__c</summarizedField>
+    <summaryFilterItems>
+        <field>LCCLine__c.Charge_in__c</field>
+        <operation>equals</operation>
+        <value>Destination</value>
+    </summaryFilterItems>
+    <summaryForeignKey>LCCLine__c.LocalCharge__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

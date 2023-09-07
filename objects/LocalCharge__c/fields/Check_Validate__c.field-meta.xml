@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Validate__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISNULL(  Accountname__r.Name  ), &quot;&quot; , Accountname__r.Name +&apos;, &apos;) &amp;
+IF(  Active__c =FALSE, &quot;&quot; , &quot;Active&quot; +&apos;, &apos;) &amp;
+IF( ISNULL(  POL__r.Name  ), &quot;&quot; , POL__r.Name +&apos;, &apos;) &amp;
+IF( ISNULL(  POD__r.Name  ), &quot;&quot; , POD__r.Name +&apos;, &apos;) &amp;
+IF( ISNULL( Validstartdate__c ), &quot;&quot; , TEXT(Validstartdate__c) +&apos;, &apos;) &amp;
+IF( ISNULL( Validenddate__c ), &quot;&quot; ,TEXT( Validenddate__c) +&apos;, &apos;)</formula>
+    <label>Check Validate</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

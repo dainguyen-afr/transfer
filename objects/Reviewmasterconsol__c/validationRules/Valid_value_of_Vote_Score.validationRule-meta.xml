@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_value_of_Vote_Score</fullName>
+    <active>true</active>
+    <errorConditionFormula>Vote_Score__c =0 ||  Vote_Score__c &gt;5</errorConditionFormula>
+    <errorDisplayField>Vote_Score__c</errorDisplayField>
+    <errorMessage>You need to input from 1 to 5</errorMessage>
+</ValidationRule>

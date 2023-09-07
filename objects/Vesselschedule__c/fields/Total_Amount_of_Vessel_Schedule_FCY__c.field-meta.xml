@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Amount_of_Vessel_Schedule_FCY__c</fullName>
+    <externalId>false</externalId>
+    <formula>Local_Charge__r.Total_Amount_of_Price_FCY_in_Des__c + Local_Charge__r.Total_Amount_of_Price_FCY_in_Origin__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Amount of Vessel Schedule (FCY)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_LCC</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New LCC</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!URLFOR(&apos;/lightning/o/LCCLine__c/new?nooverride=true&apos; +
+&apos;&amp;defaultFieldValues=&apos; +
+&apos;LocalCharge__c=&apos; + LocalCharge__c.Id +
+&apos;,Account__c=&apos; + LocalCharge__c.getAccountID__c +
+&apos;,Field1__c=&apos; + URLENCODE(LocalCharge__c.GetPOLId__c)+
+&apos;,POD__c=&apos; + URLENCODE(LocalCharge__c.GetPODId__c))}&amp; &amp;navigationLocation=RELATED_LIST&amp;backgroundContext=%2Flightning%2Fr%2FLocalCharge__c%2F{!LocalCharge__c.Id}%2Fview</url>
+</WebLink>

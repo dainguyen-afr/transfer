@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Air_Service</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Label_Local_Charge</compactLayoutAssignment>
+    <label>Air Service</label>
+    <picklistValues>
+        <picklist>Local_Charge_in__c</picklist>
+        <values>
+            <fullName>Destination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Origin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>AIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Individual_KPI__c</fullName>
+    <externalId>false</externalId>
+    <label>Individual KPI</label>
+    <referenceTo>Individual_KPI__c</referenceTo>
+    <relationshipLabel>Shipment Team Member + Individual KPIs</relationshipLabel>
+    <relationshipName>Shipment_Team_Member_Individual_KPIs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

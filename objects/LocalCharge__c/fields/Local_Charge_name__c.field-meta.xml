@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Charge_name__c</fullName>
+    <externalId>false</externalId>
+    <formula>Accountname__r.Name   &amp; &quot; - &quot; &amp;  POL__r.Port_Name_Full__c  &amp; &quot; - &quot; &amp;   POD__r.Port_Name_Full__c</formula>
+    <label>Local Charge name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

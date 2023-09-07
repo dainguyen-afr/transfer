@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompactLayoutofBooking_line</fullName>
+    <fields>Charge_Name__c</fields>
+    <fields>Tax_Rate_Selling__c</fields>
+    <fields>Price_Local__c</fields>
+    <fields>Amount_of_Tax_Selling_Local__c</fields>
+    <fields>Total_Amount_of_Selling_Local__c</fields>
+    <fields>LCC_Line__c</fields>
+    <label>Compact Layout of Booking line</label>
+</CompactLayout>

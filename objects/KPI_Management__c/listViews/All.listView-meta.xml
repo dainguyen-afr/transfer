@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>KPIManagementName__c</columns>
+    <columns>KPIProfitAmountInput__c</columns>
+    <columns>ActualKPIProfitAmount__c</columns>
+    <columns>KPI_Profit_Achieved_Amount__c</columns>
+    <columns>KPI_Completed_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

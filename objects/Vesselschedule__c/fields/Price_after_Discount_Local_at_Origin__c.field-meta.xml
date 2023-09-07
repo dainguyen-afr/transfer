@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_after_Discount_Local_at_Origin__c</fullName>
+    <externalId>false</externalId>
+    <formula>(1-Discount_Rate__c )* Local_Charge__r.Total_Amount_of_Price_Local_in_Origin__c</formula>
+    <label>Price after Discount (Local) at Origin</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

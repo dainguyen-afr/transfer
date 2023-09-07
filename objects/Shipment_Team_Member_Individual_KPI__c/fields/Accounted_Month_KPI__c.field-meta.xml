@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounted_Month_KPI__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT( MONTH(F_TMS_S_O__r.clofor_com_cfs__SalesAccountedDate__c )) &amp;&quot;/&quot;&amp; TEXT( YEAR(F_TMS_S_O__r.clofor_com_cfs__SalesAccountedDate__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Accounted Month KPI</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

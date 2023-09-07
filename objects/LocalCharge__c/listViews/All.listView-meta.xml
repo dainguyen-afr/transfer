@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Local_Charge_name__c</columns>
+    <columns>Active__c</columns>
+    <columns>Validstartdate__c</columns>
+    <columns>Validenddate__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Accountname__c</columns>
+    <columns>POL__c</columns>
+    <columns>POD__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Total_Amount_of_Price_Local_in_Des__c</columns>
+    <columns>Total_Amount_for_Guest_FCY_Des__c</columns>
+    <columns>Total_Amount_for_Guest_FCY_Origin__c</columns>
+    <columns>Total_Amount_for_Guest_Local_Des__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
